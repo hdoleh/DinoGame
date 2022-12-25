@@ -1,4 +1,5 @@
-dolehdinogame.netlify.app
+# Dino Game
+https://dolehdinogame.netlify.app/
 
 
 
