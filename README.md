@@ -1,4 +1,4 @@
-#Dino Game
-site is dolehdinogame.netlify.app
+dolehdinogame.netlify.app
+
 
 
