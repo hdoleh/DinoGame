@@ -1,0 +1,52 @@
+#score { 
+text-align:center;
+text-decoration: underline;
+text-decoration-color: rgb(98, 74, 101);
+
+}
+
+#game {
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    margin: auto ;
+    background-image: url("https://as2.ftcdn.net/v2/jpg/01/46/03/31/1000_F_146033193_K3poVK6PmEHrepqbZD2gwfmm6ma0XAdh.jpg");
+    background-size: cover;
+    
+}
+#dino {
+    height: 75px;
+    width: 75px;
+    position: relative;
+    top: 225px;
+    background-image: url("https://art.pixilart.com/3cdd029a803f908.png");
+    background-size: cover;
+    animation: jump 0.5s ;
+    
+}
+#rock {
+    
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 175px;
+    left: 550px;
+    background-image: url("https://openseauserdata.com/files/0a123d59f0c8b7dc3b80fd1c95326f41.png");
+    background-size: cover;
+    animation: rock 1.33s infinite;
+    
+}   
+@keyframes rock {
+    0%{left: 550px;}
+    100%{left: -50px;}
+ }
+.jumpe-animation {
+    animation: jump 0.5s ;
+}
+@keyframes jump {
+    0%{top: 225px;}
+    50%{top: 75px;}
+    75%{top: 75px;}
+    100%{top: 225px;}
+}
+
