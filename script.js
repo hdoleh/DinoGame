@@ -8,7 +8,7 @@ function jump() {
     dino.classList.remove("jump-animation");
   }, 500);  
 }
-
+//adding a new eventlistner by pressing keypress 
 document.addEventListener("keypress", () => {
   if(!dino.classList.contains("jump-animation")){
     jump();
